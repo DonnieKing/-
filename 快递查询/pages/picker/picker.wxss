@@ -1,0 +1,41 @@
+/* pages/index/index.wxss */
+page{
+  background:#F0EFF4;
+}
+.input{
+  height:50px;
+  border:1px solid #FFF;
+  border-radius: 10px;
+  margin:5%;
+  background: #FFF;
+}
+.radioGroup{
+  display: flex;
+  flex-flow: row wrap;
+  margin:5%;
+}
+.radio{
+  width:33.3%;
+  margin:20px 0;
+}
+.expressCom{
+  margin: 5%;
+  height: 100rpx;
+  border:1rpx solid #1296DB;
+  border-radius: 20rpx;
+  padding-left: 10rpx;
+}
+.btn{
+   height:50px;
+   margin:5%;
+   color:#FFF;
+   background: #3481EB;
+}
+.content{
+  height:500rpx;
+  margin:5%;
+  width:90%;
+}
+.content view{
+  padding:10px 0;
+}

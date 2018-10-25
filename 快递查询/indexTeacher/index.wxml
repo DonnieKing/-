@@ -1,0 +1,22 @@
+<!--pages/index/index.wxml-->
+<view class="container">
+    <input type="text" class="expressNo" bindinput="expressNoInput" placeholder='请输入快递单号'></input>
+
+    <!-- 
+    <radio-group class="expressCom" bindchange="expressComChange">
+        <block wx:for="{{expressComData}}" wx:key="true">
+            <radio value="{{item.no}}" color="#1296DB" checked="{{item.checked}}" class="radio">{{item.com}}</radio>
+        </block>
+    </radio-group> 
+    -->
+    <picker bindchange="comPickerChange" value="{{expressComIndex}}" range="{{expressComData}}" range-key="com">
+    <input type="text" class="expressCom" placeholder='请选择快递公司' disabled='true' value="{{expressComName}}"></input>
+    </picker>
+
+    <button class="searchBtn" bindtap="searchBtnTap">查询</button>
+    <scroll-view scroll-y class="expressResult">
+        <block wx:for="{{expressResult}}" wx:key="true">
+            <view class="expressResult-item">{{item.remark}}（{{item.datetime}}）</view>
+        </block>
+    </scroll-view>  
+</view>

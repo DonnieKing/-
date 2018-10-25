@@ -1,0 +1,44 @@
+/* pages/index/index.wxss */
+.expressNo{
+  margin: 5%;
+  height: 100rpx;
+  border:1rpx solid #1296DB;
+  border-radius: 20rpx;
+  padding-left: 10rpx;
+}
+/* 
+.expressCom{
+  margin: 5%;
+  display: flex;
+  flex-flow: row wrap;
+} */
+
+.expressCom{
+  margin: 5%;
+  height: 100rpx;
+  border:1rpx solid #1296DB;
+  border-radius: 20rpx;
+  padding-left: 10rpx;
+}
+
+.radio{
+  margin-bottom: 30rpx;
+  flex: 0 1 33.33%;
+}
+
+.searchBtn{
+  margin: 5%;
+  color:#FFF;
+  background-color: #1296DB;
+}
+
+.expressResult{
+  padding: 5%;
+  width:700rpx;
+  height: 500rpx;
+  font-size: 36rpx;
+}
+
+.expressResult-item{
+  margin-bottom: 10rpx;
+}
