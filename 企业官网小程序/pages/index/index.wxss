@@ -1,0 +1,27 @@
+/* pages/index/index.wxss */
+.picture{
+  width:100%;
+  height:150px;
+}
+.weui-panel__hd{
+  font-size: 18px;
+  font-weight: 400;
+  color:black;
+}
+.weui-footer__text{
+  padding-top: 15px;
+  padding-bottom: 20px;
+  text-align: center;
+  color:gray;
+}
+.weui-form-preview__item{
+  height:50px;
+}
+.weui-cell__ft{
+  margin-right:5px;
+  margin-top:-14px;
+}
+.weui-form-preview__value{
+  font-size: 16px;
+  margin-right:20px;
+}

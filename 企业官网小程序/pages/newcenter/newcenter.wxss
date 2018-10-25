@@ -1,0 +1,10 @@
+/* pages/newcenter/newcenter.wxss */
+.weui-media-box weui-media-box_appmsg{
+  border:1px solid gray;
+}
+.weui-footer__text{
+  padding-top: 15px;
+  padding-bottom: 20px;
+  text-align: center;
+  color:gray;
+}

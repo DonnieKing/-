@@ -1,0 +1,50 @@
+<!--pages/my/my.wxml-->
+<import src="../../utils/wxParser/index.wxml"/>
+<navigator url="" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+            <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+                <image class="weui-media-box__thumb" src="{{company.logo}}" />
+            </view>
+            <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+                <view class="weui-media-box__title">{{company.name}}                      </view>  
+            </view>
+        </navigator>
+
+
+   
+     <view class="weui-form-preview">
+    <view class="weui-form-preview__hd">
+        <view class="weui-form-preview__item">
+            <view class="weui-form-preview__label">公司资质</view>     
+        </view>
+        <view>
+        <block wx:for="{{company.aptitude}}" wx:key="true">
+       <image class="picture" mode="scaleToFill" bindtap="previewImage" src="{{item}}" data-urls="{{company.aptitude}}" data-current="{{item}}"></image> 
+        </block>
+    </view>
+    </view>
+    <view class="weui-form-preview__bd">
+        <view class="weui-form-preview__item">
+            <view class="weui-form-preview__label">公司地址</view>
+            <view class="weui-form-preview__value">{{company.address}}</view>
+            <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+        </view>
+        <view class="weui-form-preview__item">
+            <view class="weui-form-preview__label">联系电话</view>
+            <view class="weui-form-preview__value">{{company.telphone}}</view>
+            <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+        </view>
+        <view class="weui-form-preview__item">
+            <view class="weui-form-preview__label">公司简介</view>
+                    
+        </view>
+    </view> 
+     <view class="content"> 
+         <!-- {{company.intro}} -->
+         <view class="wxParser">
+  <template is="wxParser" data="{{wxParserData:intro.nodes}}"/>
+        </view>
+         </view>     
+       <view>
+    <view class="weui-footer__text"> © 合肥苑博财务管理有限公司</view>
+      </view>
+</view>

@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/item/item",
+    "pages/newcenter/newcenter",
+    "pages/my/my",
+    "pages/detail/detail",
+    "pages/letter/letter"
+     
+  ],
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#1296DB",
+    "borderStyle": "black",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "selectedIconPath": "resources/images/index_selected (1).png",
+        "iconPath": "resources/images/index (1).png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "resources/images/item_selected (1).png",
+        "iconPath": "resources/images/item (1).png",
+        "pagePath": "pages/item/item",
+        "text": "服务项目"
+      },
+      {
+        "selectedIconPath": "resources/images/newcenter_selected (1).png",
+        "iconPath": "resources/images/newcenter (1).png",
+        "pagePath": "pages/newcenter/newcenter",
+        "text": "新闻中心"
+      },
+      {
+        "selectedIconPath": "resources/images/my_selected (1).png",
+        "iconPath": "resources/images/my (1).png",
+        "pagePath": "pages/my/my",
+        "text": "关于苑博"
+      }
+    ]
+  }
+}

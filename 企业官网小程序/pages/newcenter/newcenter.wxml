@@ -1,0 +1,15 @@
+<!--pages/newcenter/newcenter.wxml-->
+<navigator url="../letter/letter" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+            <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+                <image class="weui-media-box__thumb" src="../../resources/images/letter.jpg" />
+            </view>
+            <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+                <view class="weui-media-box__title">致纳税人的一封信</view>
+                <view class="weui-media-box__desc">开票软件升级</view>
+            </view>
+            <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+        </navigator>
+
+               <view>
+    <view class="weui-footer__text"> © 合肥苑博财务管理有限公司</view>
+      </view>

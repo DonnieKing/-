@@ -1,0 +1,7 @@
+/* pages/item/item.wxss */
+.weui-footer__text{
+  padding-top: 15px;
+  padding-bottom: 20px;
+  text-align: center;
+  color:gray;
+}

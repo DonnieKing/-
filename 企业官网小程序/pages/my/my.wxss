@@ -1,0 +1,33 @@
+/* pages/my/my.wxss */
+.text{
+  font-size:16px;
+  color:black;  
+  padding:0 10px; 
+   
+}
+.picture{
+  width:50%;
+  height:230px;
+}
+.weui-form-preview__label{
+  color:black;
+  font-size: 16px;
+}
+.content{
+  padding:5px 15px;
+}
+.weui-form-preview__value{
+  font-size: 16px;
+  margin-right:20px;
+}
+.weui-cell__ft{
+  margin-right:5px;
+  margin-top:-12px;
+}
+.weui-footer__text{
+  padding-top: 15px;
+  padding-bottom: 20px;
+  text-align: center;
+  color:gray;
+}
+ 
