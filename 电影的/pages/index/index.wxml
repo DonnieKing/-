@@ -1,0 +1,29 @@
+<!--pages/index/index.wxml-->
+<view class="header">
+      <scroll-view scroll-x="true">
+        <block wx:for="{{categoryList}}" wx:key="true">
+          <view class="header-item"  data-index="{{index}}" bindtap="categoryChange">
+            <view class="header-item__title {{ currentIndex == index ? 'active-header' : ''}}">{{ item.name }}</view>
+          </view>
+        </block>
+      </scroll-view>
+</view>
+
+<view>
+<view style='height:40rpx'></view>
+    <block wx:for="{{information}}" wx:key="true">
+        <navigator class="content" url="../detail/detail?id={{item.id}}" bindtap='jumpTap'>
+      <!-- <block wx:for="{{information}}" wx:key="true"> -->
+          <image class="picture" src="{{item.cover}}"></image>
+          <view class="oicon" hidden="{{item.categories[1]==1534125721721881 ? false : true}}">
+          <image class='icon'  src='../../resources/images/bofang.png'></image>
+          </view>
+          <view class='desc'>
+              <view class="title">{{item.title}}</view>
+              <view class="intro">{{item.description}}</view>
+          </view>
+        </navigator>  
+    </block>
+</view>
+
+

@@ -1,0 +1,19 @@
+<!--pages/moreDetail/moreDetail.wxml-->
+
+
+<view>
+    <block wx:for="{{information}}" wx:key="true">
+        <navigator class="content" url="../detail/detail?id={{item.id}}" bindtap='jumpTap'>
+       
+          <image class="picture" src="{{item.cover}}"></image>
+          <view>
+              <view class="title">{{item.title}}</view>
+              <view class="intro">{{item.description}}</view>
+          </view>
+        </navigator>  
+    </block>
+</view>
+
+ 
+
+

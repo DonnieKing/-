@@ -1,0 +1,2 @@
+<!--pages/moocbacom/moocbacom.wxml-->
+<web-view src="{{address}}"></web-view>

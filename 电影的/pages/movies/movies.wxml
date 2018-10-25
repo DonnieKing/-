@@ -1,0 +1,19 @@
+<view class="show">即将上映</view>
+<view class="container">
+  <block wx:for="{{soonfilm}}" wx:key="true">
+   <view bindtap='navigator' class="movies" data-url='{{item.iconlinkUrl}}'>
+        <image class="picture" src="{{item.iconaddress}}" ></image>
+        <view class="title">{{item.tvTitle}}</view>
+   </view>
+  </block> 
+</view>
+
+<view class="show">正在上映</view>
+<view class="container">
+  <block wx:for="{{nowfilm}}" wx:key="true">
+   <view bindtap='navigator' class="movies" data-url='{{item.iconlinkUrl}}'>
+        <image class="picture" src="{{item.iconaddress}}" ></image>
+        <view class="title">{{item.tvTitle}}</view>
+   </view>
+  </block> 
+</view> 

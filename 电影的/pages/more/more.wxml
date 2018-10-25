@@ -1,0 +1,25 @@
+<!--pages/more/more.wxml-->
+<view class="search">
+      <view class="left">
+        <input class="input" bindinput="input"  bindfocus="focus" bindblur="blur" placeholder='搜索'/>
+      </view>
+      <view class="right">
+        <button bindtap="searchTap">取消</button>
+      </view>
+</view>
+
+<view class="item">
+    <block wx:for="{{categoryList}}" wx:key="true">
+         <navigator class="item_title" url="../moreDetail/moreDetail?id={{item.id}}">
+              {{item.name}}
+         </navigator>  
+    </block>
+</view>
+
+<view class="ad" bindtap='navigator' data-url="http://moocba.com">
+    <image src="../../resources/images/moocba2.png" class="photo"></image>
+</view>
+
+<view>
+   <view class="weui-footer__text"> © 电影的- 电影 , 你和我 。</view>
+</view>

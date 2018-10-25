@@ -1,0 +1,50 @@
+{
+  "pages":[
+     "pages/index/index",        
+     "pages/more/more",           
+     "pages/my/my",
+     "pages/detail/detail",          
+     "pages/moreDetail/moreDetail",      
+     "pages/search/search",
+     "pages/collection/collection" ,
+     "pages/read/read",
+     "pages/movies/movies",
+     "pages/moviesDetail/moviesDetail",
+     "pages/moocbacom/moocbacom"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "navigationBarTitleText": "电影的",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "black",
+    "list": [
+      {
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "resources/images/index.png",
+      "selectedIconPath": "resources/images/index_selected.png"
+    },
+    {
+      "pagePath": "pages/more/more",
+      "text": "更多",
+      "iconPath": "resources/images/more.png",
+      "selectedIconPath": "resources/images/more_selected.png"
+    },
+      {
+        "pagePath": "pages/movies/movies",
+        "text": "影片库",
+        "iconPath": "resources/images/movies.png",
+        "selectedIconPath": "resources/images/movies_selected.png"
+      },
+    {
+      "pagePath": "pages/my/my",
+      "text": "我的",
+      "iconPath": "resources/images/my.png",
+      "selectedIconPath": "resources/images/my_selected.png"
+    }
+    ]
+  }
+}

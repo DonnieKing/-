@@ -1,0 +1,15 @@
+<!--pages/detail/detail.wxml-->
+<import src="../../utils/wxParser/index.wxml"/>
+      <image wx:if="{{collection}}" class="icon" src="../../resources/images/collection_selected.png" bindtap="toCollect" data-index="{{richTextID}}"></image>
+      <image wx:else class="icon" src="../../resources/images/collection.png" bindtap="toCollect" data-index="{{richTextID}}"></image>
+
+<view class="content">
+      <view class="wxParser">
+          <template is="wxParser" data="{{wxParserData:content.nodes}}"/>
+    </view>
+</view>
+
+<button class="btn" open-type="share">
+     <image class="share" src="../../resources/images/share.png"></image>
+      <text class="shareText">和朋友一起读</text>
+</button>

@@ -1,0 +1,31 @@
+/* pages/movies/movies.wxss */
+.container{
+  margin:3%;
+  width:100%;
+  /* background: red; */
+  display: flex;
+  flex-flow: row wrap;
+}
+.movies{
+   margin-top:10%;
+   flex:0 1 33.3%;
+}
+.picture{
+  width:210rpx;
+  height:280rpx;
+}
+.title{
+  width:210rpx;
+  height:60rpx;
+  font-size: 26rpx;
+  text-align: center;
+  /* background: blue; */
+}
+.show{
+  margin-bottom:5%;
+  margin:0 auto;
+  width:300rpx;
+  height:80rpx;
+  text-align: center;
+  /* background: red; */
+}

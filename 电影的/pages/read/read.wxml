@@ -1,0 +1,24 @@
+<!--pages/read/read.wxml-->
+<!--pages/collection/collection.wxml-->
+
+
+<view class="container">
+  <view class="tips">{{information == ""? "暂无相关数据":"" }} </view>
+    <block wx:for="{{information}}" wx:key="true">
+    <navigator url="../detail/detail?id={{item.id}}">
+      <view class="content">
+           <image src="{{item.cover}}" class="picture"></image>
+           <view class="text">
+                <view class="title">{{item.title}}</view>
+                <view class="from">文章来自Movies</view>
+           </view>
+      </view>
+      </navigator>
+      <view class="delete" data-index="{{item.id}}"  bindtap='deleteBtn'>
+          删除
+      </view>
+    <!-- </navigator> -->
+      <view class="line"></view>
+    </block>
+</view>
+

@@ -1,0 +1,20 @@
+<view class="search">
+      <view class="left">
+        <input class="input" bindinput="input"  placeholder='请输入关键字'/>
+      </view>
+      <view class="right">
+        <button bindtap="searchTap">搜索</button>
+      </view>
+</view> 
+
+
+ <block wx:for="{{information}}" wx:key="true">
+<navigator class="content" url='../detail/detail?id={{item.id}}'>  
+     <view class="title">{{item.title}}</view>
+     <view class="from">Movies</view>
+     <image class="icon" src="../../resources/images/Tower.png"></image>  
+     <image class="picture" src="{{item.cover}}"></image>
+     <view class="time">{{item.created_at}}</view>
+     <view class="line"></view>
+</navigator>
+ </block>

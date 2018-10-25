@@ -1,0 +1,22 @@
+<!--pages/my/my.wxml-->
+ <open-data type="userAvatarUrl" class="index-profile__img"></open-data>
+ <view class="index-title">
+    <open-data type="userNickName"></open-data>
+  </view>
+<view class="operator" >
+    <view class="item">
+          <navigator url="../collection/collection">
+              收藏
+          </navigator>
+    </view>
+    <view class="item">
+          <navigator url="../read/read">
+              已读
+          </navigator>
+    </view>
+</view>
+
+<view class="footer">  
+    <image src="../../resources/images/book.png" class="photo"></image>         
+    <view class="text">快来和小伙伴们一起阅读吧</view>
+</view>
