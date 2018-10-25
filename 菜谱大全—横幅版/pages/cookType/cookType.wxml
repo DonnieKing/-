@@ -1,0 +1,25 @@
+<!--pages/search/search.wxml-->
+
+<view class="container">
+
+    <view class="result">
+      <block wx:for="{{cookTypeList}}" wx:key="true">
+        <view class="item">
+          <view class="left">
+            <navigator url="/pages/details/details?id={{item.id}}" hover-class="none">
+              <image mode="scaleToFill" src="{{item.albums}}"></image>      
+            </navigator>
+          </view>
+          <view class="right">
+            <view class="title">
+              <text>{{item.title}}</text>
+            </view>
+            <view class="imtro">
+              <text>{{item.imtro}}</text>
+            </view>
+          </view>
+        </view>
+      </block>
+      <view hidden="{{moreHidden}}">没有更多</view>
+    </view>
+</view>

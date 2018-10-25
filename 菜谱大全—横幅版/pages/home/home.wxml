@@ -1,0 +1,16 @@
+<!--pages/home/home.wxml-->
+<scroll-view scroll-x="true" class="cate-list">
+    <block wx:for="{{cateList}}" wx:key="true">
+      <view class="cate-list-item" bindtap="cateChange" data-index="{{index}}" data-pid="{{item.parentId}}">
+          <view class="cate-item-title {{ currentIndex == index ?'active':'' }}">{{item.name}}</view>
+      </view>
+    </block> 
+</scroll-view>
+
+<view class="flex-row">
+    <block wx:for="{{cateData}}" wx:key="true">
+      <view class="flex-item">
+        <navigator url="../cookType/cookType?id={{item.id}}">{{item.name}}</navigator> 
+      </view>
+    </block>
+</view>
