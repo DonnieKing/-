@@ -1,0 +1,15 @@
+<!--pages/icon/icon.wxml-->
+<icon type="success" size="93"></icon> 
+<icon type="info" size="93"></icon> 
+<icon type="warn" size="93" color="#FFBE00"></icon> 
+<icon type="warn" size="193"></icon> 
+<icon type="waiting" size="93"></icon> 
+<icon type="success" size="23"></icon> 
+<icon type="success_no_circle" size="23"></icon> 
+<icon type="circle" size="23"></icon> 
+<icon type="warn" size="23" color="#F43530"></icon> 
+<icon type="download" size="23"></icon> 
+<icon type="info_circle" size="23"></icon> 
+<icon type="cancel" size="23"></icon> 
+<icon type="search" size="20"></icon>
+

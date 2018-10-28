@@ -1,0 +1,12 @@
+<!--pages/flex/flex.wxml-->
+<view class="weui-flex">
+    <view class="weui-flex__item">
+        111
+    </view>
+    <view class="weui-flex__item">
+        222
+    </view>
+    <view class="weui-flex__item">
+        333
+    </view>
+</view>

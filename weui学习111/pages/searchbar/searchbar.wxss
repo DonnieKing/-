@@ -1,0 +1,4 @@
+/* pages/searchbar/searchbar.wxss */
+.weui-search-bar__cancel-btn{
+  color: red;
+}

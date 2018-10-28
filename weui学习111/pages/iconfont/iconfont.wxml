@@ -1,0 +1,4 @@
+<!--pages/iconfont/iconfont.wxml-->
+<view class="iconfont icon-email f100"></view>
+<view class="iconfont icon-book f100"></view>
+<view class="iconfont icon-ordercar f100"></view>

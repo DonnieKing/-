@@ -1,0 +1,9 @@
+<!--pages/footer/footer.wxml-->
+<view class="weui-badge" style="margin-left: 5px;">8</view>
+
+<view class="weui-footer weui-footer_fixed-bottom">
+    <view class="weui-footer__links">
+        <navigator url="" class="weui-footer__link">WeUI首页</navigator>
+    </view>
+    <view class="weui-footer__text">Copyright © 2008-2016 weui.io</view>
+</view>

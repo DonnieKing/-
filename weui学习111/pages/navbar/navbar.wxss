@@ -1,0 +1,9 @@
+/* pages/navbar/navbar.wxss */
+.weui-tab__content{
+    padding-top: 60px;
+    text-align: center;
+}
+
+.weui-navbar__slider {
+  width: 3em;
+}

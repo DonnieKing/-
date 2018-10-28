@@ -1,0 +1,20 @@
+/* pages/iconfont/iconfont.wxss */
+@font-face {
+  font-family: 'iconfont';  /* project id 778640 */
+  src: url('//at.alicdn.com/t/font_778640_8vby5q6o90m.ttf') format('truetype'); 
+}
+
+.iconfont{
+  font-family: 'iconfont';
+}
+
+.icon-email::before{content:"\e604";color:red}
+
+.icon-book::before{content:"\e601";color:red}
+
+.icon-ordercar::before{content:"\e887";color:red}
+
+.f40{font-size: 40rpx;}
+.f100{font-size: 100rpx;}
+
+.green{color: green}

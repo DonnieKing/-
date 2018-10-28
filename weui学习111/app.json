@@ -1,0 +1,32 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/icon/icon",
+    "pages/flex/flex",
+    "pages/footer/footer",
+    "pages/my/my",
+    "pages/navbar/navbar",
+    "pages/searchbar/searchbar",
+    "pages/iconfont/iconfont"
+  ],
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#07BC02",
+    "borderStyle": "black",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "selectedIconPath": "resources/images/home_select.png",
+        "iconPath": "resources/images/home.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "resources/images/my_select.png",
+        "iconPath": "resources/images/my.png",
+        "pagePath": "pages/my/my",
+        "text": "我的"
+      }
+    ]
+  }
+}
